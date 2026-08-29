@@ -23,7 +23,7 @@ Estudante de Ciência da Computação construindo carreira em engenharia de dado
 
 Trabalho com ingestão a partir de APIs públicas, orquestração em Airflow, modelagem dimensional em dbt com testes de qualidade, containers em Docker e infraestrutura na AWS. Cada projeto tem as decisões de arquitetura e os trade-offs documentados no repositório.
 
-Hoje atuo como Programador de Serviços na Ambiental Paraná, onde faço a programação operacional das plantas do estado e os relatórios mensais de produção em SAP, Excel e Power BI.
+Hoje atuo trabalho com plantas do estado e os relatórios mensais de produção em SAP, Excel e Power BI.
 
 ## Stack Principal
 
