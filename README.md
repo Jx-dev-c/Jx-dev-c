@@ -20,7 +20,7 @@ arquitetura e os trade-offs estão documentados no repo.
 
 Aberto a oportunidades júnior em Engenharia/Analytics de Dados.
 
-📧 joaobatistademacedojunior97@gmail.com &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-batista-ab2003343)
+📧 joaobatistademacedojunior97@gmail.com &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/joaobatistamjr)
 
 <sub>
 
