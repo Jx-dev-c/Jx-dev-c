@@ -26,6 +26,7 @@ Aberto a oportunidades júnior em Engenharia/Analytics de Dados.
 
 **In English:** I build end-to-end data pipelines to learn by doing. Currently working
 with Python, SQL, dbt, Airflow, Docker and AWS (S3, Athena, Glue). Featured project:
+
 [job-market-pipeline](https://github.com/Jx-dev-c/job-market-pipeline), a tech job-market
 data pipeline running on AWS with CI. Open to junior data engineering roles.
 
