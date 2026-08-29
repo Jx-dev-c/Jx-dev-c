@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,100:00BFFF&height=180&section=header&text=Jo%C3%A3o%20Batista&fontColor=FFFFFF&fontSize=48&fontAlignY=35&desc=Engenharia%20de%20Dados&descAlignY=55&descSize=18" />
+<img src="banner.png" alt="João Batista — Data Engineer | ETL/ELT, AWS, Airflow, dbt, Python" width="100%" />
 
 <p><b>Pipelines de ponta a ponta: ingestão, orquestração, transformação, modelagem e visualização.</b></p>
 
@@ -23,7 +23,7 @@ Estudante de Ciência da Computação construindo carreira em engenharia de dado
 
 Trabalho com ingestão a partir de APIs públicas, orquestração em Airflow, modelagem dimensional em dbt com testes de qualidade, containers em Docker e infraestrutura na AWS. Cada projeto tem as decisões de arquitetura e os trade-offs documentados no repositório.
 
-Hoje atuo trabalho com plantas do estado e os relatórios mensais de produção em SAP, Excel e Power BI.
+Hoje trabalho com plantas do estado e os relatórios mensais de produção em SAP, Excel e Power BI.
 
 ## Stack Principal
 
@@ -75,21 +75,6 @@ Sistema de gestão escolar completo, construído para entender o lado onde os da
 
 **Stack:** C# · ASP.NET Core · Angular · TypeScript
 
-## Estatísticas
-
-<div align="center">
-
-<p>
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Jx-dev-c&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00BFFF&icon_color=00BFFF&text_color=FFFFFF" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jx-dev-c&layout=compact&hide_border=true&bg_color=0D1117&title_color=00BFFF&text_color=FFFFFF" />
-</p>
-
-<p>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jx-dev-c&theme=github-dark&hide_border=true&bg_color=0D1117&color=00BFFF&line=00E5FF&point=FFFFFF&area=true&area_color=08131D" />
-</p>
-
-</div>
-
 ## Formação
 
 Bacharelado em Ciência da Computação — Universidade Cruzeiro do Sul, conclusão prevista em dezembro de 2027.
@@ -106,7 +91,5 @@ Aberto a oportunidades júnior em Engenharia e Analytics de Dados.
 </p>
 
 <p><sub><b>In English:</b> I build end-to-end data pipelines — ingestion, orchestration, transformation, modeling and visualization — using Python, SQL, dbt, Airflow, Docker and AWS. Open to junior data engineering roles.</sub></p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,100:00BFFF&height=120&section=footer" />
 
 </div>
