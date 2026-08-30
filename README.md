@@ -10,27 +10,24 @@
 <img src="https://img.shields.io/badge/Curitiba,_PR_%E2%80%94_Brasil-0D1117?style=for-the-badge&logo=googlemaps&logoColor=00BFFF" />
 </p>
 
-<p>
-<img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00BFFF" />
-<img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00BFFF" />
-<img src="https://img.shields.io/badge/dbt-0D1117?style=for-the-badge&logo=dbt&logoColor=00BFFF" />
-<img src="https://img.shields.io/badge/Airflow-0D1117?style=for-the-badge&logo=apacheairflow&logoColor=00BFFF" />
-<img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00BFFF" />
-<img src="https://img.shields.io/badge/AWS-0D1117?style=for-the-badge&logo=amazonwebservices&logoColor=00BFFF" />
-<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00BFFF" />
-</p>
-
 </div>
 
-## Projetos
+Meu critério para dar um projeto por concluído é ele rodar de ponta a ponta, com
+orquestração, testes e documentação — não um notebook com o resultado certo.
 
-Todos com README documentando arquitetura, decisões e trade-offs.
+## Projetos
 
 ### [job-market-pipeline](https://github.com/Jx-dev-c/job-market-pipeline)
 
 Pipeline end-to-end sobre o mercado de vagas de tecnologia, rodando na AWS dentro do free tier.
 
+**~970 vagas por execução**, de 3 APIs públicas, ingeridas todo dia às 6h pelo Airflow e transformadas em 15 modelos dbt cobertos por 57 testes de dados.
+
 APIs públicas → S3 → Glue/Athena → dbt → Airflow → Metabase, com CI no GitHub Actions executando lint, testes e `dbt build` a cada push.
+
+[![Dashboard do job-market-pipeline](https://raw.githubusercontent.com/Jx-dev-c/job-market-pipeline/main/docs/dashboard.png)](https://github.com/Jx-dev-c/job-market-pipeline)
+
+O README traz também o que o pipeline **não** resolve: viés das fontes, o teto do parsing de senioridade por regex e por que o Excel lidera o ranking de skills.
 
 `Python` `Airflow` `dbt` `AWS (S3, Glue, Athena)` `GitHub Actions` `Metabase`
 
@@ -58,7 +55,7 @@ Sistema de gestão escolar completo — API REST em ASP.NET Core e frontend em A
 
 ## Sobre
 
-Estudante de Ciência da Computação construindo carreira em engenharia de dados na prática. Meu critério para dar um projeto por concluído é ele rodar de ponta a ponta, com orquestração, testes e documentação — não um notebook com o resultado certo.
+Estudante de Ciência da Computação construindo carreira em engenharia de dados na prática.
 
 Hoje trabalho com plantas do estado e os relatórios mensais de produção em SAP, Excel e Power BI. Antes disso, analisei contestações de faturas na Vivo e atuei com automação e dados na Nova Gestão.
 
@@ -68,9 +65,9 @@ Também trabalho com BigQuery, Power BI, DuckDB, pytest e pandas.
 
 ## Contato
 
-Aberto a oportunidades júnior em Engenharia e Analytics de Dados.
+Aberto a oportunidades em Engenharia de Dados e Analytics Engineering.
 
 - **LinkedIn:** [joaobatistamjr](https://www.linkedin.com/in/joaobatistamjr)
 - **E-mail:** joaobatistademacedojunior97@gmail.com
 
-<sub><b>In English:</b> I build end-to-end data pipelines — ingestion, orchestration, transformation, modeling and visualization — with Python, SQL, dbt, Airflow, Docker and AWS. Featured project: <a href="https://github.com/Jx-dev-c/job-market-pipeline">job-market-pipeline</a>, a tech job-market data pipeline running on AWS with CI. Open to junior data engineering roles.</sub>
+<sub><b>In English:</b> I build end-to-end data pipelines — ingestion, orchestration, transformation, modeling and visualization — with Python, SQL, dbt, Airflow, Docker and AWS. Featured project: <a href="https://github.com/Jx-dev-c/job-market-pipeline">job-market-pipeline</a>, ingesting ~970 job postings a day from 3 public APIs into 15 dbt models covered by 57 data tests, running on AWS with CI. Open to data engineering and analytics engineering roles.</sub>
