@@ -1,73 +1,28 @@
-<div align="center">
+### Olá, eu sou o João
 
-<h1>João Batista de Macedo Junior</h1>
+Construo pipelines de dados. Uso projetos de ponta a ponta pra aprender na prática:
+ingestão, orquestração, transformação, modelagem e visualização.
 
-<p><b>Engenharia de Dados</b> &nbsp;·&nbsp; Pipelines de ponta a ponta em Python, SQL, Airflow, dbt e AWS</p>
+**Stack:** Python, SQL, dbt, Airflow, Docker, Postgres, AWS (S3, Athena, Glue), BigQuery.
 
-<p>
-<a href="https://www.linkedin.com/in/joaobatistamjr"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:joaobatistademacedojunior97@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=00BFFF" /></a>
-<img src="https://img.shields.io/badge/Curitiba,_PR_%E2%80%94_Brasil-0D1117?style=for-the-badge&logo=googlemaps&logoColor=00BFFF" />
-</p>
+---
 
-</div>
+#### Projeto em destaque
 
-Meu critério para dar um projeto por concluído é ele rodar de ponta a ponta, com
-orquestração, testes e documentação — não um notebook com o resultado certo.
+**[job-market-pipeline](https://github.com/Jx-dev-c/job-market-pipeline)** — pipeline
+de dados sobre o mercado de vagas de tecnologia.
 
-## Projetos
+APIs públicas de vagas → S3 → Glue/Athena → dbt → Airflow → Metabase. Roda na AWS dentro
+do free tier, com CI (lint + testes + `dbt build`) no GitHub Actions. As decisões de
+arquitetura e os trade-offs estão documentados no repo.
 
-### [job-market-pipeline](https://github.com/Jx-dev-c/job-market-pipeline)
+---
 
-Pipeline end-to-end sobre o mercado de vagas de tecnologia, rodando na AWS dentro do free tier.
+Aberto a oportunidades em Engenharia e Analytics de Dados.
 
-**~970 vagas por execução**, de 3 APIs públicas, ingeridas todo dia às 6h pelo Airflow e transformadas em 15 modelos dbt cobertos por 57 testes de dados.
+📧 joaojrdevc@gmail.com · 💼 [LinkedIn](https://www.linkedin.com/in/joaobatistamjr)
 
-APIs públicas → S3 → Glue/Athena → dbt → Airflow → Metabase, com CI no GitHub Actions executando lint, testes e `dbt build` a cada push.
-
-[![Dashboard do job-market-pipeline](https://raw.githubusercontent.com/Jx-dev-c/job-market-pipeline/main/docs/dashboard.png)](https://github.com/Jx-dev-c/job-market-pipeline)
-
-O README traz também o que o pipeline **não** resolve: viés das fontes, o teto do parsing de senioridade por regex e por que o Excel lidera o ranking de skills.
-
-`Python` `Airflow` `dbt` `AWS (S3, Glue, Athena)` `GitHub Actions` `Metabase`
-
-### [br-socioeconomic-pipeline](https://github.com/Jx-dev-c/br-socioeconomic-pipeline)
-
-População estimada dos 5.571 municípios brasileiros, extraída da API do IBGE.
-
-Extração em Python, carga em Postgres, modelagem em star schema no dbt com testes de qualidade, orquestração em Airflow e visualização em Metabase — todo o ambiente sobe em Docker.
-
-`Python` `PostgreSQL` `dbt` `Airflow` `Docker` `Metabase`
-
-### [nyc-taxi-lakehouse](https://github.com/Jx-dev-c/nyc-taxi-lakehouse)
-
-Lakehouse local sobre o dataset NYC TLC Taxi Trips, em três camadas: raw → trusted → refined.
-
-Ingestão e processamento em Python com DuckDB, transformações modeladas em dbt.
-
-`Python` `DuckDB` `dbt`
-
-### [SchoolApi](https://github.com/Jx-dev-c/SchoolApi) + [school-app](https://github.com/Jx-dev-c/school-app)
-
-Sistema de gestão escolar completo — API REST em ASP.NET Core e frontend em Angular. Construído para entender o lado onde os dados nascem, antes de chegarem ao pipeline.
-
-`C#` `ASP.NET Core` `Angular` `TypeScript`
-
-## Sobre
-
-Estudante de Ciência da Computação construindo carreira em engenharia de dados na prática.
-
-Hoje trabalho com plantas do estado e os relatórios mensais de produção em SAP, Excel e Power BI. Antes disso, analisei contestações de faturas na Vivo e atuei com automação e dados na Nova Gestão.
-
-Bacharelado em Ciência da Computação pela Universidade Cruzeiro do Sul, com conclusão prevista para dezembro de 2027.
-
-Também trabalho com BigQuery, Power BI, DuckDB, pytest e pandas.
-
-## Contato
-
-Aberto a oportunidades em Engenharia de Dados e Analytics Engineering.
-
-- **LinkedIn:** [joaobatistamjr](https://www.linkedin.com/in/joaobatistamjr)
-- **E-mail:** joaobatistademacedojunior97@gmail.com
-
-<sub><b>In English:</b> I build end-to-end data pipelines — ingestion, orchestration, transformation, modeling and visualization — with Python, SQL, dbt, Airflow, Docker and AWS. Featured project: <a href="https://github.com/Jx-dev-c/job-market-pipeline">job-market-pipeline</a>, ingesting ~970 job postings a day from 3 public APIs into 15 dbt models covered by 57 data tests, running on AWS with CI. Open to data engineering and analytics engineering roles.</sub>
+**In English:** I build end-to-end data pipelines to learn by doing. Currently working
+with Python, SQL, dbt, Airflow, Docker and AWS (S3, Athena, Glue). Featured project:
+[job-market-pipeline](https://github.com/Jx-dev-c/job-market-pipeline), a tech job-market
+data pipeline running on AWS with CI. Open to data engineering roles.
