@@ -1,28 +1,29 @@
 ### Olá, eu sou o João
 
-Construo pipelines de dados. Uso projetos de ponta a ponta pra aprender na prática:
-ingestão, orquestração, transformação, modelagem e visualização.
+Engenheiro de dados. Construo pipelines de ponta a ponta (ingestão, orquestração, transformação, modelagem e visualização) e desenvolvo as aplicações que usam esses dados.
 
-**Stack:** Python, SQL, dbt, Airflow, Docker, Postgres, AWS (S3, Athena, Glue), BigQuery.
+**Dados:** Python · SQL · dbt · Airflow · DuckDB · PostgreSQL · Docker · AWS (S3, Glue, Athena)
 
----
-
-#### Projeto em destaque
-
-**[job-market-pipeline](https://github.com/Jx-dev-c/job-market-pipeline)** — pipeline
-de dados sobre o mercado de vagas de tecnologia.
-
-APIs públicas de vagas → S3 → Glue/Athena → dbt → Airflow → Metabase. Roda na AWS dentro
-do free tier, com CI (lint + testes + `dbt build`) no GitHub Actions. As decisões de
-arquitetura e os trade-offs estão documentados no repo.
+**Desenvolvimento:** C# / ASP.NET Core · Angular · TypeScript · Next.js
 
 ---
 
-Aberto a oportunidades em Engenharia e Analytics de Dados.
+#### Projetos
+
+| Projeto | O que faz | Stack |
+|---|---|---|
+| **[job-market-pipeline](https://github.com/Jx-dev-c/job-market-pipeline)** | ~970 vagas por dia de 3 APIs públicas → S3 → Glue/Athena → dbt (15 modelos, 57 testes). CI no GitHub Actions, dentro do free tier da AWS | Python · Airflow · dbt · AWS |
+| **[clima-capitais-pipeline](https://github.com/Jx-dev-c/clima-capitais-pipeline)** | 1,4 milhão de medições horárias das 27 capitais, 69 testes de dados e [dashboard publicado](https://jx-dev-c.github.io/clima-capitais-pipeline/) | Python · Parquet · DuckDB · dbt · Angular |
+| **[br-socioeconomic-pipeline](https://github.com/Jx-dev-c/br-socioeconomic-pipeline)** | Os 5.571 municípios brasileiros (API do IBGE) em star schema, com carga idempotente | Python · Airflow · dbt · PostgreSQL · Metabase |
+| **[nyc-taxi-lakehouse](https://github.com/Jx-dev-c/nyc-taxi-lakehouse)** | ~3 milhões de corridas em camadas raw → trusted → refined | Python · DuckDB · dbt · Parquet |
+| **[SchoolApi](https://github.com/Jx-dev-c/SchoolApi)** + **[school-app](https://github.com/Jx-dev-c/school-app)** | API REST de gerenciamento escolar e front-end que consome a API | C# · ASP.NET Core · EF Core · PostgreSQL · Angular |
+
+Cada repositório documenta as decisões de arquitetura, os trade-offs e os problemas reais que apareceram no caminho.
+
+---
+
+Aberto a oportunidades em Engenharia de Dados, Analytics e desenvolvimento com foco em dados.
 
 📧 joaojrdevc@gmail.com · 💼 [LinkedIn](https://www.linkedin.com/in/joaobatistamjr)
 
-**In English:** I build end-to-end data pipelines to learn by doing. Currently working
-with Python, SQL, dbt, Airflow, Docker and AWS (S3, Athena, Glue). Featured project:
-[job-market-pipeline](https://github.com/Jx-dev-c/job-market-pipeline), a tech job-market
-data pipeline running on AWS with CI. Open to data engineering roles.
+**In English:** Data engineer building end-to-end pipelines (Python, SQL, dbt, Airflow, AWS) and the applications on top of them (C#/.NET, Angular). Featured: job-market-pipeline and clima-capitais-pipeline. Open to data engineering roles.
