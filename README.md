@@ -78,7 +78,7 @@
 📧 joaojrdevc@gmail.com · 💼 [LinkedIn](https://www.linkedin.com/in/joaobatistamjr) · 📍 Curitiba, PR
 
 <details>
-<summary><b>🇺🇸 In English</b></summary>
+<summary><b>🌎 In English</b></summary>
 
 Data engineer based in Curitiba, Brazil. I take data end to end: from a raw API or CSV to the number someone uses to make a decision, with tests, documentation and a dashboard that tells the story.
 
