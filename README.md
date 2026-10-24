@@ -10,7 +10,7 @@ Engenheiro de dados. Construo pipelines de ponta a ponta (ingestão, orquestraç
 
 ---
 
-#### Em destaque: [olist-lakehouse-databricks-powerbi](https://github.com/Jx-dev-c/olist-lakehouse-databricks-powerbi)
+#### Em destaque: [olist-lakehouse-databricks-powerbi](https://github.com/Jx-dev-c/olist-lakehouse-databricks-powerbi) · [🌐 Olist City ao vivo](https://jx-dev-c.github.io/olist-lakehouse-databricks-powerbi/olist-city/)
 
 [![Olist City 3D no Power BI](https://raw.githubusercontent.com/Jx-dev-c/olist-lakehouse-databricks-powerbi/main/docs/img/olist_city_powerbi.png)](https://github.com/Jx-dev-c/olist-lakehouse-databricks-powerbi)
 
