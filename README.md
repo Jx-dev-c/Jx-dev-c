@@ -1,4 +1,4 @@
-## Olá, eu sou o João 👋
+## Olá, eu sou o João 
 
 **Engenheiro de Dados** em Curitiba. Eu levo o dado do começo ao fim: da API ou do CSV bruto até o número que alguém usa para decidir. No caminho tem testes, documentação e um dashboard que conta a história.
 
